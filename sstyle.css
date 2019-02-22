@@ -1,0 +1,90 @@
+body{
+    background-color:rgba(0,0,0,0.9);
+    color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+#intro{
+    text-align:justify;
+    font-size: 22px;
+}
+#intpic1{
+    float: left;
+    margin:5px;
+    border:2px solid white;
+}
+#intpic2{
+    float: right;
+    margin:5px;
+    border:2px solid white;
+}
+.cusine{
+    width: 23%;
+    border:2px solid black;
+    border-radius: 8px;
+    padding:1%;
+    margin: 1%;
+    background-color:#ccc;
+    display:block;
+    float:left;
+    font-size: 20px;
+    color: black;
+    position: relative;
+    left:25px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#sindh{
+    font-size: 22px;
+    clear: both;
+}
+#reltive{
+    
+    position: relative;
+    left:380px;
+}
+#sai{
+    font-size:22px;
+}
+.ingred{
+    width:35%;
+    text-align:justify;
+    float:left;
+    background-color: #ccc;
+    color:black;
+    border:2px solid black;
+    border-radius: 5px;
+    
+    padding:2%;
+    margin:3%;
+}
+#punjab,#baloch,#pkht{
+    font-size:22px;
+    clear:both;
+}
+#resource{
+    width:25%;
+    background-color: #ccc;
+    color: black;
+}
+#top{
+    width:100%;
+    position: fixed;
+    top:0px;
+    z-index: 1;
+    background-color:gainsboro ;
+    text-align: centre;
+    color: black;
+    margin-bottom: 6px;
+}
+#cusine:link{
+
+}
+#cusine:visited{
+
+}
+.cusine:hover{
+    background-color: grey;
+}
